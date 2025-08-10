@@ -8,5 +8,7 @@ resource "aws_instance" "myec2" {
 
   tags = {
     Name = "sentinal_check"
+    TTL = "tttl", 
+    Owner = "owwner"
   }
 }
